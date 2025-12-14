@@ -36,9 +36,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (isUsernameCorrect && isEmailCorrect && isPasswordCorrect) {
             console.log("Login success, redirecting...");
-            window.location.href = 'index.html';
+            window.location.href = 'user.html';
         } else {
             alert("Incorrect credentials.");
         }
     });
 });
+
